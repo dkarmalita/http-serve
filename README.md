@@ -6,20 +6,20 @@ This is an extended version of [http-server](https://www.npmjs.com/package/http-
 
 `http-serve` itself is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
 
-![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)
+![](https://github.com/dkarmalita/http-serve/raw/master/screenshots/public.png)
 
 
 # Installing
 
 Installation globally via `npm`:
 
-     npm i -g https://github.com/dkarmalita/http-serve.git
+     npm i -g http-serve
 
 This will install `http-serve` globally so that it may be run from the command line.
 
 Or it can be installed locally, for a project:
 
-     npm i -D https://github.com/dkarmalita/http-serve.git
+     npm i -D http-serve
 
 
 ## Usage:
