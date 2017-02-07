@@ -1,12 +1,12 @@
 # http-serve: a command-line http server
 
-This is an extended version of [http-serve](https://www.npmjs.com/package/http-serve) strengthened with a support of gzip compression and a fallback option for nonexistent routes (please see 'Available Options' section bellow for details). Together with `https` support, it make the server ideal for front-end testing purposes.
+This is an extended version of [http-server](https://www.npmjs.com/package/http-server) strengthened with a support of gzip compression and a fallback option for nonexistent routes (please see 'Available Options' section bellow for details). Together with `https` support, it make the server ideal for front-end testing purposes.
 
 ---
 
 `http-serve` itself is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
 
-![](https://github.com/nodeapps/http-serve/raw/master/screenshots/public.png)
+![](https://github.com/nodeapps/http-server/raw/master/screenshots/public.png)
 
 
 # Installing
