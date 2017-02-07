@@ -1,6 +1,6 @@
 {
   "name": "http-serve",
-  "version": "0.9.1",
+  "version": "1.0.1",
   "description": "Command-line http server with gzipping and fallback support",
   "main": "./lib/http-serve",
   "repository": {
@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "start": "node ./bin/http-serve",
-    "pretest": "common bin/http-server lib/ test",
+    "pretest": "common bin/http-serve lib/ test",
     "test": "vows --spec --isolate"
   },
   "contributors": [
@@ -84,7 +84,7 @@
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "http-server": "./bin/http-serve",
+    "http-serve": "./bin/http-serve",
     "hs": "./bin/http-serve"
   }
 }

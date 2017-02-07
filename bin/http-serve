@@ -174,11 +174,11 @@ if (process.platform === 'win32') {
 }
 
 process.on('SIGINT', function () {
-  logger.info('http-server stopped.'.red);
+  logger.info('http-serve stopped.'.red);
   process.exit();
 });
 
 process.on('SIGTERM', function () {
-  logger.info('http-server stopped.'.red);
+  logger.info('http-serve stopped.'.red);
   process.exit();
 });
