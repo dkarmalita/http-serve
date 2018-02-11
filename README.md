@@ -70,6 +70,7 @@ Or it can be installed locally, for a project:
 `-K` or `--key` Path to ssl key file (default: key.pem).
 
 `-r` or `--robots` Provide a /robots.txt (whose content defaults to 'User-agent: *\nDisallow: /')
+
 `-f` or `--fallback` Provide a fallback url if response returns 404 - useful for SPA frameworks
 
 `-h` or `--help` Print this list and exit.
