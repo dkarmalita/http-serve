@@ -77,6 +77,6 @@ Or it can be installed locally, for a project:
 
 ## Example
 
-    http-serve ./dist --gzip -p /
+    http-serve ./dist --gzip -f /
 
 It will run the http server for `./dist` content dirctory, with gzip commpression suport. All of the nonexistent routes will be redirected to the host's root - `/`.
